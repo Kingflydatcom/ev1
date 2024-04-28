@@ -1,0 +1,80 @@
+html {  
+    /**Reset para rems**/
+    font-size: 62.5%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #f6d100;
+
+}
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+
+/*header*/
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  .logo {
+    flex-basis: 60%;
+  }
+  .logo img{
+    width: 15rem;
+    height: auto;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 2rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+  }
+
+.logos-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos-menu a {
+    color: white;
+    padding: 0.4rem;
+}
+
+/*header*/
+
+
+
+
+
+
+
+
+
+img {
+    height: 10rem;
+}
